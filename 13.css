@@ -1,0 +1,181 @@
+/**{
+	margin: 0; 
+	padding: 0;
+}
+*/
+
+
+ body{ 
+	
+	font: 20px Arial, Helvetica, sans-serif; 
+	line-height: 1.6;  
+	margin: 0;
+}  
+a{
+	text-decoration: none; 
+	color: black;
+}
+a:hover{
+	color: red; 
+}
+a:active{
+	color: green;
+} 
+/*a:visited{
+	color: ; use to visited link and color will be change
+}*/
+.container{
+	width: 70%; 
+	margin: auto;
+}  
+.clr { 
+	clear: both;
+
+} 
+.button{
+	background-color:black; 
+	color: darkred; 
+	padding:  10px 15px; 
+	border: 2px dotted; 
+} 
+.button:hover{
+	background: red; 
+	color: #fff;
+}
+.little {
+	background-color: grey; 
+	color: lightblue; 
+		
+	border-top: 3px; 
+	border-bottom: 3px; 
+	border-left: 5px ;  
+	border-right: 5px ;
+	border-style:solid; 
+	border-color: darkred;
+	/*same as above*/
+	/*border: 5px red solid;*/ 
+	border-radius: 10px;
+	font-family: cursive;
+	/*padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;*/
+	/*same as above*/
+	padding: 20px; 
+
+	/*margin-top: 20px;*/ 
+	/*same as above*/
+	margin: 20px 0; 
+}
+.little h1{
+	font-family: tahoma; 
+	font-weight: 800; 
+	text-decoration: underline; 
+	text-transform: uppercase; 
+	letter-spacing: 0.2em; 
+} 
+.good {
+	border: 3px dotted green; 
+
+	padding: 20px; 
+	margin: 20px;
+}
+.catagories {
+	border: 3px  solid goldenrod ;
+	padding: 10px ;
+	border-radius: 15px; 
+	margin: 20px 0;
+}  
+.catagories h2 {
+	text-align: center ;	
+}
+
+.catagories ul{
+	padding: 10; 
+	list-style: square; 
+}
+.catagories li{
+	padding-bottom: 8px; 
+	border-bottom: dotted 1px violet;
+}
+.my-form{
+	padding: 20px; 
+} 
+.my-form .form-group{
+	padding-bottom: 15px;
+} 
+.my-form label {
+	display: block;
+} 
+.my-form input[type="text"],.my-form textarea{
+	padding: 8px; 
+	width: 100% ;
+} 
+.block{
+	float:left ; 
+	width: 33.3%; 
+	border: 1px solid; 
+	padding: 10px; 
+	box-sizing: border-box ;
+} 
+#main-block{
+	float: right; 
+	width: 60%; 
+	box-sizing: border-box; 
+	
+	margin-top: 10px; 
+	padding: 10px;
+} 
+#sidebar{
+	float: right; 
+	width: 40%; 
+	background-color:black; 
+	color: white; 
+	box-sizing: border-box; 
+	padding: 10px; 
+	margin-top: 10px;
+}  
+.p-box{
+	width: 800px; 
+	height: 500px; 
+	border: 1px solid black;  
+	margin: 30px; 
+	position: relative;  
+	background-image:url('../html/lion.jpg'); 
+	background-repeat: no-repeat; 
+	background-position: 300px 200px;  
+	background-position: center;
+
+}
+.p-box h1{ 
+	color: red;
+	position: absolute ;
+	top: 100px; 
+	left: 200px;
+} 
+.p-box h2{ 
+	color: white;
+	position: absolute ;
+	bottom: 40px; 
+	right: 100px;	 
+
+} 
+.fix-me {
+	 position: fixed; 
+	 top: 400px;
+} 
+.my-list li:first-child{ 
+	background:blue;
+} 
+.my-list li:last-child{ 
+	background:violet; 
+} 
+.my-list li:first-child{ 
+	background:blue;
+} 
+.my-list li:nth-child(7){
+	background-color: yellow;
+} 
+.my-list li:nth-child(even){
+	background-color: grey;
+}

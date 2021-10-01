@@ -1,0 +1,106 @@
+body{
+	background-color:white; 
+	color:#555 ; 
+	font-family: arial,helvetica,sans-serif ; 
+	font-size: 16px;  
+	line-height: 1.6em; 
+	margin:0;
+} 
+
+.container{
+	margin: auto; 
+	width: 45%; 
+	overflow: hidden;
+} 	
+
+#main-header {
+	padding: 5px;
+} 
+#main-header h1{
+ text-align: center; 
+ color: black; 
+ font-size: 40px; 
+ padding-right: 10px;
+} 
+
+#navbar{ 
+	padding:0 ;  
+	margin: 0 250px;
+	border: 1px black solid; 
+	border-radius: 5px;
+	border-width: 1px;
+} 
+#navbar h1{
+	color: black;  
+	padding-right: 20px; 
+
+} 
+
+#navbar label{
+	display: block; 
+	color: black; 
+	font-size: 12px; 
+} 
+#navbar input{
+	width: 80%;  
+	padding: 5px;
+
+}   
+#navbar input:hover{
+	border-color: #f0c14b;
+}
+
+#navbar button{
+	background-color: #f0c14b; 
+	border-color: #a88734 #9c7e31 #846a29;; 
+	width: 85%; 
+	margin-top: 10px; 
+	padding: 5px;
+} 
+#navbar p{
+	font-size: 12px;
+}
+
+#navbar b{
+	color:#0066c0;
+} 
+
+#navbar ul{
+	margin-left: -22px;
+}
+
+#navbar li{  
+	list-style: disclosure-closed; 
+	color: #0066c0; 
+	padding-right:10px;
+}
+
+#main-section p{
+	text-align: center;
+	font-size: 14px; 
+	margin-right: 40px;
+} 
+
+#main-section button{
+	margin-left: 120px;  
+	width: 50%; 
+	padding: 5px; 
+	margin-bottom: 20px;
+}  
+#sidebar {
+	margin-left: 110px; 
+	font-size: 12px;
+}
+
+#sidebar li{ 
+	display: inline; 
+	margin-left: 20px; 
+	color: #0066c0;
+} 
+
+#main-footer p{  
+	margin-top: 0;
+	margin-right: 50px;
+	text-align: center; 
+	font-size: 12px;
+}
